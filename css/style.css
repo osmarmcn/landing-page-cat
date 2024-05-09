@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+
+}   
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container{
+    background: #7636FF;
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+    padding:  24px 32px 24px;
+    gap: 49px;
+   
+}
+
+.container .content-inicial{
+    width: 342px;
+    
+    display: flex;
+    align-items: center;
+    gap: 49px;
+    margin: 0 auto;
+
+}
+.container .content-inicial .logo img{
+   opacity: 30%;
+   width: 64px;
+   height: 64px;
+}
+
+.container .content-inicial h3{
+    font-size: 24px;
+    color: #5326B3;
+     
+}
+.container .content-info {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.container .content-info .content-info-text h2{
+    margin-bottom: 10px;
+    font-size: 36px;
+    line-height: 46px;
+}
+
+.container .content-info .content-info-text p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    line-height: 17px;
+}
+
+.container .content-info.content-info-img img{
+    width: 326px;
+    height: 127px;
+}
+
+.container .imgs{
+    display: flex;
+    gap: 49px;
+}
+
+.container .imgs img{
+    
+}
+.container .imgs .pata-img {
+    width: 183px;
+    display: flex;
+    justify-content: space-between;
+    gap: 29px;
+    
+}
+.container .imgs .pata-img img{
+    width: 23px;
+    height: 23px;
+    transform: rotate(16deg);
+
+    
+   
+}
+
+.container .imgs .pata-img img:first-child{
+    /* margin-left: -199px; */
+}
+
+.container .imgs .pata-img2 {
+    width: 183px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.container .imgs .pata-img2 img{
+    width: 23px;
+    height: 23px;
+    transform: rotate(16deg);
+    
+}
+
+.container .razao h2{
+    font-size: 36px;
+    margin-bottom: 40px;
+
+}
+
+.container .razao .razao-box{
+    display: flex;
+    align-items: center;
+    gap: 49px;
+    margin-top: 55px ;
+}
+
+.container .razao .razao-box img{
+    opacity: 30%;
+    width: 90px;
+    height: 90px;
+
+
+}
+
+.container .razao .razao-box p{
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    line-height: 17px;
+
+}
+
+.container .adotar h3{
+    color: #ffff;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 40px;
+
+}
+
+.container .adotar p{
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffff;
+    margin-bottom: 40px;
+}
+
+.container .adotar .adotar-box{
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    
+    margin-bottom: 40px;
+}
+
+.container .adotar .adotar-box img{
+    width: 342px;
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+    border: 4px solid white;
+}
+
+.container .adotar .adotar-box span{
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffff;
+}
+
+.container .adotar .adotar-box p{
+    font-size: 14px;
+}
+.container .adotar .adotar-box .btn{
+    text-align: center;
+}
+
+.container .adotar .adotar-box a{
+    color:black;
+    background: #ffff;
+    font-family: "Inter", sans-serif;
+    padding:10px 58px ;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 36px;
+}
+.container .conectar{
+    margin-bottom: 40px;
+}
+.container .conectar .input-box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.container .conectar .input-box label{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+}
+
+.container .conectar .input-box input{
+    padding: 12px 16px;
+    width: 100%;
+    border-radius: 16px;
+    outline: none;
+    border: none;
+}
+
+.container .conectar .input-box textarea{
+    border-radius: 16px;
+}
+.container .conectar .form .enviar{
+    text-align: center;
+}
+.container .conectar .form input[type='submit']{
+    padding: 10px 48px;
+    border-radius: 36px;
+    border: none;
+    outline: none;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+
+}
